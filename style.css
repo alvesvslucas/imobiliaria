@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 23rem;
+  width: 100%;
+  background-color: #b0ddfc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.logo {
+  margin-bottom: 1rem;
+}
+
+nav {
+  display: flex;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.banner img {
+  margin: 10px;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.sobre {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.sobre h2 {
+  color: #0e5381;
+}
+
+.sobre img {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+}
+
+.font {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.font p {
+  font-size: 20px;
+  text-align: center;
+  text-align: justify;
+}
+.destaque {
+  color: #467899;
+}
+.servico {
+  background-color: #1d80c1;
+  height: 22rem;
+}
+.servico h2 {
+  padding-top: 20px;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+}
+.servico p {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 10px;
+  font-size: 25px;
+  text-align: center;
+  color: #fff;
+}
+.resalta {
+  color: #e7f57a;
+}
+.lista {
+  text-align: center;
+  margin: 20px auto;
+  max-width: 100px;
+  color: #fff;
+  text-align: left;
+  font-size: 20px;
+}
+.corretores {
+  padding-top: 20px;
+  text-align: center;
+  color: #000;
+  font-size: 20px;
+}
+.corretores img {
+  width: 35rem;
+  border-radius: 20px;
+}
+.corretores p {
+  max-width: 900px;
+  margin: 20px auto;
+  text-align: center;
+}
+.resalta_link:hover {
+  text-decoration: none;
+}
+.contato {
+  text-align: center;
+  background-color: #0e5381;
+  height: 28rem;
+  flex-wrap: wrap;
+}
+.contato h2 {
+  color: #fff;
+  padding: 20px;
+  font-size: 30px;
+}
+.contato iframe {
+  width: 500px;
+  height: 300px;
+}
+.contato p {
+  color: #fff;
+  padding: 20px;
+  font-size: 25px;
+}
+footer {
+  background-color: #f1f1f1;
+  padding: 2rem;
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #0e5381;
+  font-weight: bold;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  margin-top: 1rem;
+  color: #555;
+  font-size: 0.875rem;
+}
